@@ -1,0 +1,7 @@
+  ${parkData.map(park => `
+    <li style="width: 100%">
+      <a href="/parks/${park.id}" class="is-pulled-left">
+        ${park.name}
+      </a>
+    </li>
+    `).join('')}
